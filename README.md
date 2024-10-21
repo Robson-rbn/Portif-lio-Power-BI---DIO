@@ -36,8 +36,7 @@ INNER JOIN
     departments d ON e.department_id = d.department_id;
 ## ## Por que Usar Mesclar e Não Atribuir:
 O mesclar (merge) é utilizado quando queremos combinar duas tabelas com base em uma chave comum, criando uma nova tabela com todas as linhas de ambas as tabelas. O atribuir (append) é utilizado para adicionar linhas de uma tabela ao final de outra tabela, sem a necessidade de uma chave comum. No caso da junção de funcionários e departamentos, o mesclar é mais adequado porque queremos combinar as informações de ambas as tabelas com base no ID do departamento.
-## ## Próximos Passos:
-Criação do Modelo Estrela: Será criado um modelo estrela para otimizar o desempenho das consultas e visualizações.
+
 Desenvolvimento de Dashboards: Serão desenvolvidos dashboards interativos para visualizar os dados e obter insights relevantes.
 ## ## Observações:
 Este README será atualizado conforme o avanço do projeto.
