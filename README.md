@@ -29,7 +29,7 @@ Normalização: Mantenha os dados normalizados para evitar redundâncias.
 Agrupamento: Agrupe os dados de acordo com as necessidades da análise.
 
 ## ## Query SQL para Junção de Tabelas:
-__SQL
+SQL
 
 SELECT 
     e.*,
@@ -48,6 +48,7 @@ Este README será atualizado conforme o avanço do projeto.
 ## ## Tecnologias Utilizadas:
 | Tecnologia | Descrição | Versão | Uso no Projeto |
 |---|---|---|---|
-| Power BI | Ferramenta de análise de negócios e visualização de dados da Microsoft. | Mais recente | Visualização de dados |
+|  ![grafico-de-barras](https://github.com/user-attachments/assets/aa079f21-ec6b-4dc0-b120-ffdb6784f519)
+Power BI | Ferramenta de análise de negócios e visualização de dados da Microsoft. | Mais recente | Visualização de dados |
 | MySQL    | Sistema gerenciador de banco de dados relacional (SGBDR) open source, popular por sua velocidade e flexibilidade. | 8.0 | Armazenamento de dados |
 | Azure    | Plataforma de computação em nuvem da Microsoft que oferece uma ampla gama de serviços, incluindo bancos de dados, análise de dados e inteligência artificial. | N/A | Hospedagem |
