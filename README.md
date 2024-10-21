@@ -9,7 +9,7 @@ Criação da Instância MySQL no Azure: Uma instância do MySQL foi criada no Az
 Criação do Banco de Dados: O banco de dados foi criado com base no esquema disponível no repositório GitHub.
 Conexão Power BI: O Power BI foi configurado para se conectar à instância do MySQL no Azure.
 
-##Transformação dos Dados:
+Transformação dos Dados:
 
 Análise Inicial: Foram realizadas análises para identificar problemas nos dados, como tipos de dados incorretos, valores nulos e inconsistências.
 Limpeza e Transformação: As seguintes transformações foram aplicadas:
@@ -19,6 +19,7 @@ Relacionamento entre Funcionários e Gerentes: Foi verificado se todos os funcio
 Normalização de Dados: Colunas complexas foram separadas em colunas mais simples e dados duplicados foram removidos.
 Criação de Tabelas Relacionadas: As tabelas de funcionários e departamentos foram mescladas para criar uma única tabela com informações mais completas sobre os funcionários.
 Agrupamento de Dados: Os dados foram agrupados para obter informações agregadas, como a quantidade de funcionários por gerente.
+
 ## ## Diretrizes para Transformação dos Dados
 Verificação de Dados: Sempre verifique os dados antes de iniciar qualquer transformação.
 Tipos de Dados: Certifique-se de que os tipos de dados estão corretos para cada coluna.
@@ -26,8 +27,10 @@ Valores Nulos: Trate os valores nulos de forma cuidadosa, considerando o impacto
 Relacionamentos entre Tabelas: Estabeleça relacionamentos claros e precisos entre as tabelas.
 Normalização: Mantenha os dados normalizados para evitar redundâncias.
 Agrupamento: Agrupe os dados de acordo com as necessidades da análise.
+
 ## ## Query SQL para Junção de Tabelas:
-SQL
+# SQL
+
 SELECT 
     e.*,
     d.department_name
@@ -35,6 +38,7 @@ FROM
     employees e
 INNER JOIN 
     departments d ON e.department_id = d.department_id;
+    
 ## ## Por que Usar Mesclar e Não Atribuir:
 O mesclar (merge) é utilizado quando queremos combinar duas tabelas com base em uma chave comum, criando uma nova tabela com todas as linhas de ambas as tabelas. O atribuir (append) é utilizado para adicionar linhas de uma tabela ao final de outra tabela, sem a necessidade de uma chave comum. No caso da junção de funcionários e departamentos, o mesclar é mais adequado porque queremos combinar as informações de ambas as tabelas com base no ID do departamento.
 
