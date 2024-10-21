@@ -1,5 +1,5 @@
 
-## Desafio Power BI
+## Desafio Power BI  ![grafico-de-barras](https://github.com/user-attachments/assets/aa079f21-ec6b-4dc0-b120-ffdb6784f519) 
 ## ## Descrição do Projeto
 Este projeto tem como objetivo demonstrar o processo de criação de um dashboard no Power BI a partir de uma base de dados de vendas hospedada no MySQL Azure. O foco principal é a transformação e limpeza dos dados para garantir a qualidade e a consistência das informações utilizadas na visualização.
 ## ## Etapas do Projeto
@@ -48,6 +48,6 @@ Este README será atualizado conforme o avanço do projeto.
 ## ## Tecnologias Utilizadas:
 | Tecnologia | Descrição | Versão | Uso no Projeto |
 |---|---|---|---|
-| ![grafico-de-barras](https://github.com/user-attachments/assets/aa079f21-ec6b-4dc0-b120-ffdb6784f519) Power BI | Ferramenta de análise de negócios e visualização de dados da Microsoft. | Mais recente | Visualização de dados |
+|Power BI | Ferramenta de análise de negócios e visualização de dados da Microsoft. | Mais recente | Visualização de dados |
 | MySQL    | Sistema gerenciador de banco de dados relacional (SGBDR) open source, popular por sua velocidade e flexibilidade. | 8.0 | Armazenamento de dados |
 | Azure    | Plataforma de computação em nuvem da Microsoft que oferece uma ampla gama de serviços, incluindo bancos de dados, análise de dados e inteligência artificial. | N/A | Hospedagem |
