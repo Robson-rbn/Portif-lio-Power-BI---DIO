@@ -8,7 +8,8 @@ Configuração do Ambiente:
 Criação da Instância MySQL no Azure: Uma instância do MySQL foi criada no Azure para hospedar a base de dados.
 Criação do Banco de Dados: O banco de dados foi criado com base no esquema disponível no repositório GitHub.
 Conexão Power BI: O Power BI foi configurado para se conectar à instância do MySQL no Azure.
-Transformação dos Dados:
+
+##Transformação dos Dados:
 
 Análise Inicial: Foram realizadas análises para identificar problemas nos dados, como tipos de dados incorretos, valores nulos e inconsistências.
 Limpeza e Transformação: As seguintes transformações foram aplicadas:
