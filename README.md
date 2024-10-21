@@ -41,7 +41,7 @@ Desenvolvimento de Dashboards: Serão desenvolvidos dashboards interativos para 
 ## ## Observações:
 Este README será atualizado conforme o avanço do projeto.
 ## ## Tecnologias Utilizadas:
-| Tecnologia | :---: | Versão | Uso no Projeto |
+| Tecnologia | :Descrição: | Versão | Uso no Projeto |
 |---|---|---|---|
 | Power BI | Ferramenta de análise de negócios e visualização de dados da Microsoft. | Mais recente | Visualização de dados |
 | MySQL    | Sistema gerenciador de banco de dados relacional (SGBDR) open source, popular por sua velocidade e flexibilidade. | 8.0 | Armazenamento de dados |
