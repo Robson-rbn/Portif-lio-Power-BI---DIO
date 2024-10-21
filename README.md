@@ -1,5 +1,6 @@
 
-## Desafio Power BI ![grafico-preditivo](https://github.com/user-attachments/assets/7f30cc89-64ec-46aa-87fc-9d64e87ef71b)
+## Desafio Power BI <img src="02.png" style="width: 20px; height: 20px;">
+
 
 ## ## Descrição do Projeto
 Este projeto tem como objetivo demonstrar o processo de criação de um dashboard no Power BI a partir de uma base de dados de vendas hospedada no MySQL Azure. O foco principal é a transformação e limpeza dos dados para garantir a qualidade e a consistência das informações utilizadas na visualização.
