@@ -29,7 +29,7 @@ Normalização: Mantenha os dados normalizados para evitar redundâncias.
 Agrupamento: Agrupe os dados de acordo com as necessidades da análise.
 
 ## ## Query SQL para Junção de Tabelas:
-# SQL
+__SQL
 
 SELECT 
     e.*,
